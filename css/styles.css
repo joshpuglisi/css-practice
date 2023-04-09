@@ -1,0 +1,23 @@
+body{
+    background-color: #FEF2F4;
+    margin: 0;
+}
+
+.section1{
+    text-align: center;
+    background-color: #FFABAB;
+    color: rgb(133, 99, 99);
+    height: 100vh;
+    align-items: center;
+}
+
+.section2{
+    text-align: center;
+    background-color: #FCC8D1;
+    color: rgb(133, 99, 99);
+    height: 100vh;
+}
+
+h1{
+    margin: 0;
+}
