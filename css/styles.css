@@ -13,17 +13,16 @@ body{
 }
 
 .section2{
-    background-color: #FCC8D1;
     color: rgb(133, 99, 99);
-    height: 100vh;
     position: relative;
 }
 
-.section3{
-    background-color: #FFABAB;
+.section4{
+    background-color: #FCC8D1;
     color: rgb(133, 99, 99);
-    height: 30vh;
+    height: 10vh;
     position: relative;
+    padding: 50px;
 }
 
 h1{
@@ -77,22 +76,62 @@ h2{
 .profilefoto{
     border-radius: 50%;
     width: 10%;
-    margin-top: 5%;
+    margin: 3.75em auto;
 }
 
 .css-des{
     width: 25%;
-    margin-left: 5em;
-    float: left;
-    display: none;
+    margin: auto 1.8em;
+    float: right;
 }
 
 .skill-row{
     width: 50%;
-    margin: 100px auto;
+    height: 50%;
+    margin: 15em auto;
     text-align: left;
 }
 
 .par1{
     line-height: 2;
 }
+
+.skillz{
+    margin-top: 2em;
+}
+
+.contact-me{
+    margin: 5em auto;
+    width: 50%;
+}
+
+.prof-desc{
+    margin: 3em auto;
+    line-height: 2;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color: rgb(133, 99, 99);
+    width: 5%;
+    margin: 5em auto;
+}
+
+.btn {
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
+    font-family: Arial;
+    color: #b35b5b;
+    font-size: 20px;
+    background: #ffa6a3;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #fc8a8a;
+    text-decoration: none;
+  }
