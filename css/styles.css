@@ -1,23 +1,98 @@
 body{
     background-color: #FEF2F4;
     margin: 0;
+    text-align: center;
+    font-family: sans-serif;
 }
 
 .section1{
-    text-align: center;
     background-color: #FFABAB;
     color: rgb(133, 99, 99);
     height: 100vh;
-    align-items: center;
+    position: relative;
 }
 
 .section2{
-    text-align: center;
     background-color: #FCC8D1;
     color: rgb(133, 99, 99);
     height: 100vh;
+    position: relative;
+}
+
+.section3{
+    background-color: #FFABAB;
+    color: rgb(133, 99, 99);
+    height: 30vh;
+    position: relative;
 }
 
 h1{
-    margin: 0;
+    margin-top: 0;
+    font-size: 5.5em;
+}
+
+h2{
+    margin-top: 0;
+}
+
+.greetings{
+    position: relative;
+    top: 25%;
+}
+
+.desc{
+    position: relative;
+    top: 25%;
+    font-family: monospace;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+
+.cloud-1{
+    position: absolute;
+    right: 20%;
+    top: 10%;
+}
+
+.cloud-2{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.mountain-1{
+    position: relative;
+    top: 30%;
+    max-width: 50%;
+}
+
+.comp{
+    border-radius: 50%;
+    width: 25%;
+    float: left;
+    margin: auto 1.8em;
+}
+
+.profilefoto{
+    border-radius: 50%;
+    width: 10%;
+    margin-top: 5%;
+}
+
+.css-des{
+    width: 25%;
+    margin-left: 5em;
+    float: left;
+    display: none;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.par1{
+    line-height: 2;
 }
